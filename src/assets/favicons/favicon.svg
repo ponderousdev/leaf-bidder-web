@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Grass icon</title>
-  <desc id="desc">Three blades of grass over a small ground mound.</desc>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10">
-    <path d="M36 94 C40 76 48 60 62 40" stroke="#d97706" />
-    <path d="M64 96 C68 74 78 58 94 44" stroke="#f59e0b" />
-    <path d="M18 98 C24 80 34 66 46 52" stroke="#d97706" />
+  <title id="title">Leaf icon</title>
+  <desc id="desc">A stylized angular leaf.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" transform="translate(36 36) scale(1.6)">
+    <path d="M0 22 L9 12 L6 2 L16 6 L26 0 L24 10 L36 12 L24 20 L28 30 L18 26 L9 34 L8 24 Z" stroke="#f59e0b" />
+    <path d="M18 34 L20 14" stroke="#d97706" />
   </g>
-  <path
-    d="M8 96 C32 84 96 84 120 96 L120 120 L8 120 Z"
-    fill="#b45309"
-  />
 </svg>
