@@ -1,0 +1,52 @@
+---
+import Button from '~/components/ui/Button.astro';
+import ToggleTheme from '~/components/common/ToggleTheme.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+import leafGraphic from '~/assets/images/leaves.svg';
+---
+
+<header
+  id="header"
+  class="sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out"
+  data-aw-sticky-header
+>
+  <div class="absolute inset-0"></div>
+  <div
+    class="relative text-default py-2 px-3 md:px-6 mx-auto w-full max-w-7xl flex flex-col items-stretch gap-2 md:flex-row md:items-center md:justify-between"
+  >
+    <a class="flex items-center mt-0" href={getHomePermalink()}>
+      <span class="relative inline-flex flex-col items-center leading-none -mt-3">
+        <img
+          src={leafGraphic.src}
+          alt=""
+          class="mb-0 h-12 sm:h-14 md:h-16 w-32 sm:w-36 md:w-40 object-contain"
+          aria-hidden="true"
+        />
+        <span class="relative z-10 block text-xl sm:text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+          Leaf Bidder
+        </span>
+      </span>
+    </a>
+    <div class="flex w-full items-center justify-between gap-2 md:w-auto md:justify-end md:ml-auto">
+      <ToggleTheme iconClass="w-5 h-5 md:w-5 md:h-5" />
+      <a
+        class="text-sm font-semibold text-muted hover:text-primary dark:text-slate-300 dark:hover:text-white"
+        href="/planned-features"
+      >
+        Planned Features
+      </a>
+      <Button
+        variant="secondary"
+        href="/#pricing"
+        text="Pricing"
+        class="py-2 px-4 md:py-2.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+      />
+      <Button
+        variant="primary"
+        href="/#get-updates"
+        text="Get Updates"
+        class="py-2 px-4 md:py-2.5 md:px-6 font-semibold shadow-none text-sm w-auto"
+      />
+    </div>
+  </div>
+</header>

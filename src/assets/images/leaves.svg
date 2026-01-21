@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized leaves</title>
+  <desc id="desc">A minimal leaf graphic with layered outlines.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 120)">
+    <g transform="translate(90 120) rotate(-18)">
+      <path
+        d="M0 28 L12 16 L8 4 L20 10 L34 0 L32 14 L48 18 L34 26 L38 40 L22 34 L12 44 L10 30 Z"
+        stroke="#d97706"
+        stroke-width="5"
+      />
+      <path d="M20 42 L22 18" stroke="#f59e0b" stroke-width="3.5" />
+    </g>
+    <g transform="translate(210 90) rotate(14)">
+      <path
+        d="M0 24 L10 14 L6 2 L18 8 L30 0 L28 12 L40 14 L28 22 L32 34 L20 30 L10 38 L8 26 Z"
+        stroke="#f59e0b"
+        stroke-width="5"
+      />
+      <path d="M18 38 L20 16" stroke="#d97706" stroke-width="3.5" />
+    </g>
+    <g transform="translate(330 140) rotate(-8)">
+      <path
+        d="M0 26 L12 16 L8 4 L20 10 L34 0 L32 14 L46 18 L34 26 L38 38 L22 34 L12 42 L10 28 Z"
+        stroke="#d97706"
+        stroke-width="5"
+      />
+      <path d="M20 40 L22 18" stroke="#f59e0b" stroke-width="3.5" />
+    </g>
+    <g transform="translate(420 80) rotate(24)">
+      <path
+        d="M0 22 L9 12 L6 2 L16 6 L26 0 L24 10 L36 12 L24 20 L28 30 L18 26 L9 34 L8 24 Z"
+        stroke="#f59e0b"
+        stroke-width="5"
+      />
+      <path d="M16 34 L18 14" stroke="#d97706" stroke-width="3.5" />
+    </g>
+    <g transform="translate(500 150) rotate(-22)">
+      <path
+        d="M0 24 L10 14 L6 2 L18 8 L30 0 L28 12 L42 16 L28 24 L32 36 L20 30 L10 38 L8 26 Z"
+        stroke="#d97706"
+        stroke-width="5"
+      />
+      <path d="M18 38 L20 16" stroke="#f59e0b" stroke-width="3.5" />
+    </g>
+    <g transform="translate(150 160) rotate(6)">
+      <path
+        d="M0 20 L8 12 L6 2 L14 6 L24 0 L22 10 L32 12 L22 18 L26 28 L16 24 L8 32 L6 22 Z"
+        stroke="#f59e0b"
+        stroke-width="4.5"
+      />
+      <path d="M14 32 L16 14" stroke="#d97706" stroke-width="3" />
+    </g>
+    <g transform="translate(260 170) rotate(-14)">
+      <path
+        d="M0 22 L9 12 L6 2 L16 6 L26 0 L24 10 L34 12 L24 20 L28 30 L18 26 L9 34 L8 24 Z"
+        stroke="#d97706"
+        stroke-width="4.5"
+      />
+      <path d="M16 34 L18 14" stroke="#f59e0b" stroke-width="3" />
+    </g>
+    <g transform="translate(380 170) rotate(10)">
+      <path
+        d="M0 20 L8 12 L6 2 L14 6 L24 0 L22 10 L32 12 L22 18 L26 28 L16 24 L8 32 L6 22 Z"
+        stroke="#f59e0b"
+        stroke-width="4.5"
+      />
+      <path d="M14 32 L16 14" stroke="#d97706" stroke-width="3" />
+    </g>
+  </g>
+  <path
+    d="M0 330 C80 320 160 320 240 328 C320 336 400 338 480 328 C560 318 600 320 640 326 L640 360 L0 360 Z"
+    fill="#b45309"
+    opacity="0.9"
+  />
+</svg>
