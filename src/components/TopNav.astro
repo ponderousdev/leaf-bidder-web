@@ -11,15 +11,29 @@ import leafGraphic from '~/assets/images/leaves.svg';
   data-aw-sticky-header
 >
   <div class="absolute inset-0"></div>
+  <div class="bg-amber-50/90 text-amber-900 text-xs sm:text-sm px-3 md:px-6 py-2 border-b border-amber-200/70 dark:bg-[#1c140ae6] dark:text-amber-100 dark:border-amber-900/40">
+    <div class="mx-auto w-full max-w-7xl flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-center sm:gap-3">
+      <span class="font-semibold uppercase tracking-wide">From the makers of Mowing Bidder</span>
+      <span class="text-amber-800/80 dark:text-amber-100/80">
+        Use both together for a seamless all-in-one quoting system.
+      </span>
+      <a
+        class="font-semibold text-primary hover:text-secondary"
+        href="https://mowingbidder.com"
+      >
+        Visit Mowing Bidder
+      </a>
+    </div>
+  </div>
   <div
-    class="relative text-default py-2 px-3 md:px-6 mx-auto w-full max-w-7xl flex flex-col items-stretch gap-2 md:flex-row md:items-center md:justify-between"
+    class="relative text-default pt-0 pb-1 px-3 md:px-6 mx-auto w-full max-w-7xl flex flex-col items-stretch gap-2 md:flex-row md:items-start md:justify-between"
   >
-    <a class="flex items-center mt-0" href={getHomePermalink()}>
-      <span class="relative inline-flex flex-col items-center leading-none -mt-3">
+    <a class="flex items-start -mt-6 self-start" href={getHomePermalink()}>
+      <span class="relative inline-flex flex-col items-center leading-none">
         <img
           src={leafGraphic.src}
           alt=""
-          class="mb-0 h-12 sm:h-14 md:h-16 w-32 sm:w-36 md:w-40 object-contain"
+          class="mb-0 h-11 sm:h-12 md:h-14 w-32 sm:w-36 md:w-40 object-contain"
           aria-hidden="true"
         />
         <span class="relative z-10 block text-xl sm:text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">

@@ -1,6 +1,7 @@
 ---
 import HeroWidget from '~/components/widgets/Hero.astro';
 import leafGraphic from '~/assets/images/leaves.svg';
+import mowingBidderLogo from '~/assets/images/mowing-bidder-logo.svg';
 ---
 
 <HeroWidget
@@ -14,4 +15,28 @@ import leafGraphic from '~/assets/images/leaves.svg';
   ]}
   imageOnTop
   image={{ src: leafGraphic, alt: 'Stylized leaf graphic' }}
-/>
+>
+  <div slot="content" class="mx-auto w-fit">
+    <div class="rounded-2xl border border-amber-200/60 bg-white/85 px-4 py-3 text-center shadow-sm dark:border-amber-900/50 dark:bg-[#131313]/80">
+      <p class="text-[11px] uppercase tracking-[0.2em] text-secondary dark:text-amber-200 font-semibold">
+        From the makers of
+      </p>
+      <a
+        class="mt-2 inline-flex items-center justify-center rounded-xl border border-amber-200/60 bg-white/80 px-4 py-2 shadow-sm transition hover:border-primary/70 dark:bg-[#1a1a1a]/70"
+        href="https://mowingbidder.com"
+      >
+        <span class="flex w-max flex-col items-center leading-none">
+          <img
+            src={mowingBidderLogo.src}
+            alt="Mowing Bidder logo"
+            class="mt-0 h-4 sm:h-5 md:h-6 w-[11ch] sm:w-[12ch] md:w-[13ch] object-contain"
+          />
+          <span class="mt-0 text-sm sm:text-base font-semibold text-gray-900 dark:text-white whitespace-nowrap">
+            Mowing Bidder
+          </span>
+        </span>
+      </a>
+      <p class="mt-2 text-xs text-muted">Use both together for a seamless all-in-one quoting system.</p>
+    </div>
+  </div>
+</HeroWidget>
