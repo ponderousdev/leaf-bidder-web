@@ -91,8 +91,12 @@ const {
               </div>
             )
           }
+          {content && (
+            <div class="mt-6">
+              <Fragment set:html={content} />
+            </div>
+          )}
         </div>
-        {content && <Fragment set:html={content} />}
       </div>
       {
         !imageOnTop && (
